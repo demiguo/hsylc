@@ -1,0 +1,9 @@
+INSERT INTO scoreinfo (SC_LEVL, SC_NUM) VALUES ('A', '4.0');
+INSERT INTO scoreinfo (SC_LEVL, SC_NUM) VALUES ('A+', '4.3');
+INSERT INTO scoreinfo (SC_LEVL, SC_NUM) VALUES ('A-', '3.7');
+INSERT INTO scoreinfo (SC_LEVL, SC_NUM) VALUES ('B', '3.0');
+INSERT INTO scoreinfo (SC_LEVL, SC_NUM) VALUES ('B+', '3.3');
+INSERT INTO scoreinfo (SC_LEVL, SC_NUM) VALUES ('B-', '2.7');
+INSERT INTO scoreinfo (SC_LEVL, SC_NUM) VALUES ('C', '2.0');
+INSERT INTO scoreinfo (SC_LEVL, SC_NUM) VALUES ('C+', '2.3');
+INSERT INTO scoreinfo (SC_LEVL, SC_NUM) VALUES ('F', '0');

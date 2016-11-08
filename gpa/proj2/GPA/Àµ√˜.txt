@@ -1,0 +1,27 @@
+简要说明：
+
+一、环境要求
+jdk版本：jdk1.6
+IE版本：IE11（低版本IE会出现页面特效不显示的情况，不影响功能），建议用谷歌浏览器打开（防止不同浏览器出现CSS样式差异问题，影响美观）。
+MSQL版本：5.6
+TOMCAT版本：6.0.33以上
+EXCEL文件要求：必须后缀为.xls的excel文件。
+
+二、安装步骤
+1、表结构和初始化数据导入：执行目录sql脚本下的sql脚本。执行顺序：table.sql-->userinfo.sql-->scoreinfo.sql
+2、发布gpa.war到tomcat：复制gpa.war到目录tomcat/webapps，启动tomcat。
+3、打开页面http：//127.0.0.1:8090/gpa验证，端口号以tomcat环境实际端口号为准。
+
+三、配置说明
+1、tomcat/webapps/gpa目录下的config文件说明：
+name=com.mysql.jdbc.Driver  ---不用改
+url=jdbc\:mysql\://192.168.1.122/gpa --修改IP地址和数据库实例名
+user=me --数据库用户
+password=me -- 密码
+path=C\: --文件上传路径，需要固定将上传文件放到该目录，文件上传才可以成功。
+
+四、用户/密码
+admin/123
+e.g.BSL14101/123
+e.g.BTA14101/123
+

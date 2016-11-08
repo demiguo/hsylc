@@ -1,0 +1,5 @@
+在Sheet‘hsylc_regist_record’中双击运行程序，程序会运行几秒钟，运行时A1中会显示working！
+
+程序的效果为根据Sheet1中的数据，生成CourseA到CourseD的顺序，并排除掉有学生注册多次的情况（这种情况下那一行中CourseA到CourseD为空）。除此之外，程序还会根据Sheet2中的内容生成一些统计，如果不需要这些统计，可以把程序中'statics in Sheet2之后的部分删除。
+
+可以修改的参数为max_class_size和max_rgr_id，这两个参数可以在程序开头修改。由于程序运行效果良好，因此不再设置“最大人数差”、“每堂课最小人数”，程序产生的结果会非常接近平均一堂课人数（可见Sheet2中的统计）。
